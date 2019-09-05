@@ -1,0 +1,50 @@
+<div class="card text-center">
+        <img class="img-fluid" [src]="tshirt.frontImageUrl"/>
+    <div class="card-header">
+        {{tshirt.name}}
+        <button (click)='cancel()' type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{tshirt.tshirtId}}</h5>
+        <p class="card-text">{{tshirt.description}}</p>
+        <table class="table table-sm">
+            <thead>
+                <th>
+                    Code
+                </th>
+                <th>
+                     Date 
+                </th>
+                <th>
+                    Price
+                </th>
+                <th>
+                        Color
+                    </th>
+            </thead>
+            <tbody>
+            <tr class="table-warning">
+                <td>{{tshirt.productCode}}</td>
+                <td>{{tshirt.releaseDate}}</td>
+                <td>{{tshirt.tshirtPrice | currency:"₹"}}</td>
+                <td>{{tshirt.tshirtColor}}</td>
+            </tr>
+        </tbody>
+
+        </table>
+        <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+                <input name='f' [(ngModel)]='quantity' class="form-control" type="number"
+                    placeholder="enter quanity to buy" />
+            </div>
+            <a (click)='buy()' class="btn btn-warning">Buy It</a>
+        </form>
+
+
+    </div>
+    <div class="card-footer text-muted">
+        Total Quanity Left : {{tshirt.inStock}}
+    </div>
+</div>
