@@ -48,7 +48,7 @@ change(div:string){
     return [
       {
         "tshirtId": 1,
-        "tshirtPrice": 10.45,
+        "tshirtPrice": 500,
         "name":"Roadster",
         "description":"Men Navy Printed Round Neck T-shirt ",
         "frontImageUrl": "https://github.com/sharmaabhishek03/TshirtApp/blob/master/src/assets/images/T1Front.jpg?raw=true",
@@ -62,7 +62,7 @@ change(div:string){
       },
       {
         "tshirtId": 2,
-        "tshirtPrice": 100.45,
+        "tshirtPrice": 600,
         "name":"HERE&NOW",
         "description":"Men Black Printed Round Neck T-shirt ",
         "frontImageUrl": "https://github.com/sharmaabhishek03/TshirtApp/blob/master/src/assets/images/T2Front.jpg?raw=true",
@@ -76,7 +76,7 @@ change(div:string){
       }, 
       {
         "tshirtId": 3,
-        "tshirtPrice": 90.45,
+        "tshirtPrice": 800,
         "name":"HERE&NOW",
         "description":"Men White & Black Colourblocked Hooded T-shirt",
         "frontImageUrl": "https://github.com/sharmaabhishek03/TshirtApp/blob/master/src/assets/images/T3Front.jpg?raw=true",
@@ -89,7 +89,7 @@ change(div:string){
       }, 
       {
         "tshirtId": 4,
-        "tshirtPrice": 20.3,
+        "tshirtPrice": 700,
         "name":"Nike",
         "description":"Men Teal Blue Solid Polo T-shirt ",
         "frontImageUrl": "https://github.com/sharmaabhishek03/TshirtApp/blob/master/src/assets/images/T4Front.jpg?raw=true",
@@ -102,7 +102,7 @@ change(div:string){
       } ,
       {
         "tshirtId": 5,
-        "tshirtPrice": 210.45,
+        "tshirtPrice": 400,
         "name":"Calvin Klein",
         "description":"Men White Printed Round Neck T-shirt",
         "frontImageUrl": "https://github.com/sharmaabhishek03/TshirtApp/blob/master/src/assets/images/T5Front.jpg?raw=true",
